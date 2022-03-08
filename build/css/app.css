@@ -23,7 +23,7 @@ main {
   background-color: #14253d;
   margin-top: 7rem;
   flex-direction: column;
-  width: 35rem;
+  width: 33rem;
   padding: 2rem;
   border-radius: 2rem;
   -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 16px 32px 18px rgba(0, 0, 0, 0.24);
@@ -37,9 +37,17 @@ main .image .img {
   height: 30rem;
   border-radius: 1rem;
 }
-main .image .img:hover {
+main .image .img:hover .hover {
   cursor: pointer;
-  background-image: url(/images/images/image-hover.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00fff76c;
+  border-radius: 1rem;
+}
+main .image .hover {
+  height: 30rem;
+  display: none;
 }
 main .info-princ {
   flex-direction: column;
@@ -54,7 +62,7 @@ main .info-princ h2:hover {
 }
 main .info-princ p {
   color: #8bacda;
-  font-size: 2.1rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
 }

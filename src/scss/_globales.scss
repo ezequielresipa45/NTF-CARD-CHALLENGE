@@ -1,0 +1,26 @@
+//PRIMARIOS
+$Soft_blue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+
+//SECUNDARIOS
+$Very_dark_blue: hsl(217, 54%, 11%);
+$Very_dark_blue1: hsl(215, 32%, 27%);
+$Very_dark_blue2: hsl(216, 50%, 16%);
+$White: hsl(0, 0%, 100%);
+
+//FUENTE
+$fuente: "Outfit", sans-serif;
+
+//BODY
+body {
+  background-color: $Very_dark_blue;
+  display: flex;
+  justify-content: center;
+}
+
+//HTML
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: $fuente;
+}

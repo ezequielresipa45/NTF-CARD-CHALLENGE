@@ -1,0 +1,103 @@
+body {
+  background-color: #0d192b;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+main,
+.info-princ,
+.info-secon,
+.ethereum,
+.clock,
+.creator {
+  display: flex;
+}
+
+main {
+  background-color: #14253d;
+  margin-top: 7rem;
+  flex-direction: column;
+  width: 35rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 16px 32px 18px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 13px -7px #000000, -1px 16px 32px 18px rgba(0, 0, 0, 0.301);
+}
+main .image .img {
+  background-image: url(/images/images/image-equilibrium.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  border-radius: 1rem;
+}
+main .image .img:hover {
+  cursor: pointer;
+  background-image: url(/images/images/image-hover.png);
+}
+main .info-princ {
+  flex-direction: column;
+}
+main .info-princ h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+main .info-princ h2:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+main .info-princ p {
+  color: #8bacda;
+  font-size: 2.1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main .info-secon {
+  justify-content: space-between;
+}
+main .info-secon .ethereum {
+  color: #00fff7;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+main .info-secon .clock {
+  color: #8bacda;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+}
+main hr {
+  width: 100%;
+  border: 0.5px solid rgba(139, 172, 218, 0.089);
+  background-color: rgba(139, 172, 218, 0.103);
+}
+main .creator {
+  align-items: center;
+  gap: 1.5rem;
+}
+main .creator img {
+  width: 30px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+main .creator p {
+  color: #8bacda;
+  font-size: 2rem;
+}
+main .creator p span {
+  color: white;
+}
+main .creator p span:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+/*# sourceMappingURL=app.css.map */
